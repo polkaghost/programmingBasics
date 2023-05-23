@@ -3,7 +3,7 @@
 
 using namespace std;
 
-string remVowel(string str)
+string removeVowel(string str)
 {
     regex r("[aeiouAEIOU]"); 
       
@@ -17,7 +17,7 @@ int main()
 	std::cout << "Enter a string" << std::endl;
         std::getline(std::cin, myString);
 
-	std::cout << (remVowel(myString)) << std::endl;	
+	std::cout << (removeVowel(myString)) << std::endl;	
 
 	return 0;
 }
