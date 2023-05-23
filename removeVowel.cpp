@@ -1,6 +1,8 @@
 #include <iostream>
 #include <bits/stdc++.h>
 
+// Write a function that takes in a string and returns that string with its vowels removed.
+
 using namespace std;
 
 string removeVowel(string str)
