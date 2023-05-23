@@ -8,7 +8,6 @@ int heightFunc(int element){
 	 if(element >= 60){
 		 std::cout << "Tall enough" << std::endl;
                 }
-
          else{
 		 std::cout << "Too short" << std::endl;
                 }
