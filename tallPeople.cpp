@@ -19,7 +19,7 @@ int main()
 {
 	int myInt;
 
-	std::cout << "Enter your height"<< std::endl;
+	std::cout << "Enter your height" << std::endl;
 	std::cin >> myInt;
 
 	heightFunc(myInt);
