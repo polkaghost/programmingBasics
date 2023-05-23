@@ -1,5 +1,7 @@
 #include <iostream>
 
+// Write a function that takes in a numeric grade (0 to 100) and returns the letter grade.
+
 void gradeFunc(int element);
 
 void gradeFunc(int element){
